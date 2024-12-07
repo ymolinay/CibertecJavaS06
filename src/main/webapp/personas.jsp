@@ -7,10 +7,10 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h1 class="text-center">Personas Registradas</h1>
+    <h1 class="text-center mb-4">Personas Registradas</h1>
     <a href="registroPersona.jsp" class="btn btn-primary mb-3">Registrar Nueva Persona</a>
-    <table class="table table-striped">
-        <thead>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
         <tr>
             <th>ID</th>
             <th>Nombre</th>

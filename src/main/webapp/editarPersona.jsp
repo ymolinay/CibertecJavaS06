@@ -8,10 +8,8 @@
 <body>
 <div class="container mt-5">
     <h1 class="text-center">Editar Persona</h1>
-    <form action="editarPersona" method="post">
-        <!-- Campo oculto para enviar el ID -->
+    <form action="editarPersona" method="post" class="card p-4 shadow-lg">
         <input type="hidden" name="id" value="${persona.id}">
-
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="nombre" name="nombre" value="${persona.nombre}" required>
